@@ -1,0 +1,22 @@
+S3 (Simple Storage Service)
+===========================
+bucket name should be uniq in entire AWS.
+Object based storage
+Extension doesn't matter
+Any size from 0 to 5 TB (5 GB) 
+Server Less
+from Anywhere
+Durability 99.999999999   (11 9's)
+Availability is 99.99 (4 9's)
+Files will be stored in >= 3 Az's (Implicit)
+CRR (Cross region replication)-- Explicit configuration
+Default all Object/Buckets are private.
+Versioning
+Access will be porivided through IAM, ACLs (Bucket/Object) and Bucket Policy
+S3 Standard Storage default.
+no Upfront commitment
+Life Cycle
+Static Web site hosting.
+Different Storage classes
+Transfer acceleration
+MFA delete
